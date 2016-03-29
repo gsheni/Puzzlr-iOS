@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4246F151CAA4C5D006F0D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4246F141CAA4C5D006F0D8D /* AppDelegate.swift */; };
+		F4246F171CAA4C5D006F0D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4246F161CAA4C5D006F0D8D /* ViewController.swift */; };
+		F4246F1A1CAA4C5D006F0D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4246F181CAA4C5D006F0D8D /* Main.storyboard */; };
+		F4246F1C1CAA4C5D006F0D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4246F1B1CAA4C5D006F0D8D /* Assets.xcassets */; };
+		F4246F1F1CAA4C5D006F0D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4246F1D1CAA4C5D006F0D8D /* LaunchScreen.storyboard */; };
+		F4246F281CAA4CB1006F0D8D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4246F261CAA4CB1006F0D8D /* FBSDKCoreKit.framework */; };
+		F4246F291CAA4CB1006F0D8D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4246F271CAA4CB1006F0D8D /* FBSDKLoginKit.framework */; };
+		F4246F311CAA5D06006F0D8D /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4246F301CAA5D06006F0D8D /* FriendsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4246F111CAA4C5D006F0D8D /* puzzlr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puzzlr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4246F141CAA4C5D006F0D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4246F161CAA4C5D006F0D8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4246F191CAA4C5D006F0D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4246F1B1CAA4C5D006F0D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4246F1E1CAA4C5D006F0D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4246F201CAA4C5D006F0D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4246F261CAA4CB1006F0D8D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F4246F271CAA4CB1006F0D8D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F4246F2A1CAA4D31006F0D8D /* puzzlr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "puzzlr-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4246F301CAA5D06006F0D8D /* FriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4246F0E1CAA4C5D006F0D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4246F291CAA4CB1006F0D8D /* FBSDKLoginKit.framework in Frameworks */,
+				F4246F281CAA4CB1006F0D8D /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4246F081CAA4C5D006F0D8D = {
+			isa = PBXGroup;
+			children = (
+				F4246F131CAA4C5D006F0D8D /* puzzlr */,
+				F4246F121CAA4C5D006F0D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4246F121CAA4C5D006F0D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4246F111CAA4C5D006F0D8D /* puzzlr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4246F131CAA4C5D006F0D8D /* puzzlr */ = {
+			isa = PBXGroup;
+			children = (
+				F4246F141CAA4C5D006F0D8D /* AppDelegate.swift */,
+				F4246F161CAA4C5D006F0D8D /* ViewController.swift */,
+				F4246F181CAA4C5D006F0D8D /* Main.storyboard */,
+				F4246F1B1CAA4C5D006F0D8D /* Assets.xcassets */,
+				F4246F1D1CAA4C5D006F0D8D /* LaunchScreen.storyboard */,
+				F4246F201CAA4C5D006F0D8D /* Info.plist */,
+				F4246F261CAA4CB1006F0D8D /* FBSDKCoreKit.framework */,
+				F4246F271CAA4CB1006F0D8D /* FBSDKLoginKit.framework */,
+				F4246F2A1CAA4D31006F0D8D /* puzzlr-Bridging-Header.h */,
+				F4246F301CAA5D06006F0D8D /* FriendsController.swift */,
+			);
+			path = puzzlr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4246F101CAA4C5D006F0D8D /* puzzlr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4246F231CAA4C5D006F0D8D /* Build configuration list for PBXNativeTarget "puzzlr" */;
+			buildPhases = (
+				F4246F0D1CAA4C5D006F0D8D /* Sources */,
+				F4246F0E1CAA4C5D006F0D8D /* Frameworks */,
+				F4246F0F1CAA4C5D006F0D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = puzzlr;
+			productName = puzzlr;
+			productReference = F4246F111CAA4C5D006F0D8D /* puzzlr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4246F091CAA4C5D006F0D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WFU;
+				TargetAttributes = {
+					F4246F101CAA4C5D006F0D8D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F4246F0C1CAA4C5D006F0D8D /* Build configuration list for PBXProject "puzzlr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4246F081CAA4C5D006F0D8D;
+			productRefGroup = F4246F121CAA4C5D006F0D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4246F101CAA4C5D006F0D8D /* puzzlr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4246F0F1CAA4C5D006F0D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4246F1F1CAA4C5D006F0D8D /* LaunchScreen.storyboard in Resources */,
+				F4246F1C1CAA4C5D006F0D8D /* Assets.xcassets in Resources */,
+				F4246F1A1CAA4C5D006F0D8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4246F0D1CAA4C5D006F0D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4246F171CAA4C5D006F0D8D /* ViewController.swift in Sources */,
+				F4246F311CAA5D06006F0D8D /* FriendsController.swift in Sources */,
+				F4246F151CAA4C5D006F0D8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4246F181CAA4C5D006F0D8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4246F191CAA4C5D006F0D8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4246F1D1CAA4C5D006F0D8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4246F1E1CAA4C5D006F0D8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4246F211CAA4C5D006F0D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4246F221CAA4C5D006F0D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4246F241CAA4C5D006F0D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/puzzlr",
+				);
+				INFOPLIST_FILE = puzzlr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WFU.puzzlr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "puzzlr/puzzlr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4246F251CAA4C5D006F0D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/puzzlr",
+				);
+				INFOPLIST_FILE = puzzlr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WFU.puzzlr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "puzzlr/puzzlr-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4246F0C1CAA4C5D006F0D8D /* Build configuration list for PBXProject "puzzlr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4246F211CAA4C5D006F0D8D /* Debug */,
+				F4246F221CAA4C5D006F0D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4246F231CAA4C5D006F0D8D /* Build configuration list for PBXNativeTarget "puzzlr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4246F241CAA4C5D006F0D8D /* Debug */,
+				F4246F251CAA4C5D006F0D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4246F091CAA4C5D006F0D8D /* Project object */;
+}
